@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 600px;
+    width: 300px
+}
+
+.bigode{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+img{
+    width: 180px;
+    height: 130px;
+}
+
+.nameBrand h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: rgb(243, 231, 215);
+    font-family: 'Akshar', sans-serif;
+}
+
+.mainTitle{
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 231, 215);
+    font-size: 40px;
+}
+
+#shop{
+    display: flex;
+    justify-content: center;
+}
+
+.bestStyle{
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 231, 215);
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.buttons button{
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FA7C1C;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+    font-family: 'Akshar', sans-serif;
+}
+
+.buttons button:hover{
+    background-color: #ac530f;
+}

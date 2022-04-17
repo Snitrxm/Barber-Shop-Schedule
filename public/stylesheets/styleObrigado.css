@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Akshar', sans-serif;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-family: 'Akshar', sans-serif;
+    width: 290px;
+    margin-top: 20px;
+    background-color: #FA7C1C;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    background-color: #F86717;
+}
+

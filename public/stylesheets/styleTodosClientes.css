@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+}
+
+header{
+    height: 70px;
+    border-bottom: 1px solid #000;
+}
+
+header h1{
+    color: #fff;
+    font-family: 'Akshar', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.clients{
+    color: #fff;
+    font-family: 'Akshar', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+
+.list li span{
+    color: rgb(243, 231, 215);;
+}
+
+.list li{
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.buttons button{
+    color: #fff;
+    padding: 5px;
+    background-color: #FA7C1C;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: #F86717;
+}
+
+.buttonInicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+#incio
+{
+    color: #fff;
+    padding: 5px;
+    background-color: #FA7C1C;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .2s; 
+}
+
+#incio:hover{
+    background-color: #F86717;
+}

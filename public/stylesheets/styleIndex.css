@@ -66,13 +66,15 @@ img{
 
 .buttons{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
     
 }
 
 .buttons button{
-    width: 120px;
+    width: 180px;
     border-radius: 20px;
     border: none;
     background-color: #FA7C1C;
@@ -82,8 +84,10 @@ img{
     cursor: pointer;
     transition: .2s;
     font-family: 'Akshar', sans-serif;
+    margin-top: 15px;
 }
 
 .buttons button:hover{
-    background-color: #ac530f;
+    background-color: #F86717;
 }
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/styleTodosClientes.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>namebrand</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="clients">Clientes</h1>
+            <% clients.forEach(client => { %>
+                <ul class="list">
+                    <li><span>Nome:</span> <%= client.name %></li>
+                    <li><span>Dia do Corte:</span> <%= client.day %></li>
+                    <li><span>Hora:</span> <%= client.hour %></li>
+                </ul>
+                <div class="buttons">
+                    <a href="/feito/<%=client._id%>?_method=delete"><button>Feito</button></a>
+                    <a href="/feito/<%=client._id%>?_method=delete"><button>Cancelar</button></a>
+                </div>
+            <% }) %>
+            <div class="buttonInicio">
+                <a href="/"><button id="incio">Início</button></a>
+            </div>
+            <h1>Clientes Feitos: <%=clientsCounter%></h1>   
+        </div>
+    </main>
+</body>
+</html>

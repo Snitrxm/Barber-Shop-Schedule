@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    
+}
+
+form label{
+    font-family: 'Akshar', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(243, 231, 215);
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid rgb(243, 231, 215);
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    margin-top: 10px;
+    background-color: #FA7C1C;
+    font-family: 'Akshar', sans-serif;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.buttons a{
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #FA7C1C;
+    font-family: 'Akshar', sans-serif;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: .2s;
+}
+
+.buttons a:hover, .buttons button:hover{
+    background-color: #F86717;
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        width: 250px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .buttons button{
+        width: 250px;
+    }
+    
+    .buttons a{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 265px) {
+    .container{
+        width: 200px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .buttons button{
+        width: 200px;
+    }
+    
+    .buttons a{
+        width: 200px;
+    }
+}
+
+
+
+
